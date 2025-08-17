@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>inbal Landing page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>עינבל קורן – טיפולי פנים ומכשור (Venus Versa)</title>
+  <meta name="description" content="קליניקה לטיפולי פנים מתקדמים עם Venus Versa. קביעת תורים, חוות דעת, ומיקום בנווה זיו." />
+  <link rel="stylesheet" href="styles.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="דף הבית">
+        <!-- לוגו: העלי קובץ בשם assets/logo-inbal.png -->
+        <img id="brandLogo" src="assets/logo-inbal.png" alt="Inbal Korene Logo" onerror="this.classList.add('img-fallback')" />
+        <span class="brand-name">Inbal Korene</span>
+      </a>
+      <nav class="nav">
+        <a href="#about">אודות</a>
+        <a href="#services">שירותים</a>
+        <a href="#videos">וידאו</a>
+        <a href="#testimonials">חוות דעת</a>
+        <a href="#contact">יצירת קשר</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>ברוכה הבאה לקליניקה של עינבל</h1>
+        <p>טיפולי פנים מתקדמים, משולבי מכשור <strong>Venus Versa</strong>, בהתאמה אישית לעורך.</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="https://wa.me/972545576117?text=%D7%A9%D7%9C%D7%95%D7%9D%20%D7%A2%D7%99%D7%A0%D7%91%D7%9C%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%AA%D7%90%D7%9D%20%D7%98%D7%95%D7%A8" target="_blank" rel="noopener">תיאום בוואטסאפ</a>
+          <a class="btn ghost" href="#services">לשירותים</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <!-- תמונה ראשית: העלי קובץ בשם assets/hero-inbal.jpg -->
+        <img id="inbalPhoto" src="assets/hero-inbal.jpg" alt="עינבל קורן" loading="lazy" onerror="this.classList.add('img-fallback')" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>אודות</h2>
+        <p>עינבל קורן – קוסמטיקאית רפואית עם ניסיון רב בשיקום העור, טיפולי אנטי-אייג'ינג וטיפולי אקנה. דגש על אבחון יסודי, תהליך נעים ותוצאות שמדברות בעד עצמן.</p>
+      </div>
+      <div class="about-cards">
+        <article class="card">
+          <h3>גישה מותאמת אישית</h3>
+          <p>תוכנית טיפול המבוססת על אבחון, מטרות וסגנון החיים שלך.</p>
+        </article>
+        <article class="card">
+          <h3>טכנולוגיה מתקדמת</h3>
+          <p>שילוב מכשור <strong>Venus Versa</strong> עם פרוטוקולים ידניים איכותיים.</p>
+        </article>
+        <article class="card">
+          <h3>תוצאות נמדדות</h3>
+          <p>מעקב צמוד, תמונות לפני/אחרי והמלצות ביתיות להמשך.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services (Venus Versa) — interactive boxes open WhatsApp -->
+  <section id="services" class="section alt">
+    <div class="container">
+      <div class="section-head">
+        <h2>שירותים – Venus Versa</h2>
+        <p>הקישו על כל תיבה לשאלת פרטים בוואטסאפ.</p>
+      </div>
+      <div class="services-grid">
+        <!-- Each service opens WhatsApp with tailored message (script.js מחבר) -->
+        <a href="#" class="service ask-wa"
+           data-msg="אשמח לקבל פרטים על טיפול באי-אחידות גוון, נימי דם עדינים וכתמי שמש, למראה עור בהיר ואחיד יותר (PhotoFacial IPL).">
+          <div class="service-top">
+            <h3>PhotoFacial (IPL)</h3>
+            <p class="tag">פיגמנטציה & אדמומיות</p>
+          </div>
+          <p>טיפול באי-אחידות גוון, נימי דם עדינים וכתמי שמש, למראה עור בהיר ואחיד יותר.</p>
+          <span class="service-cta">שאלי בוואטסאפ →</span>
+        </a>
+
+        <a href="#" class="service ask-wa"
+           data-msg="אשמח לקבל פרטים על טיפול RF למיצוק ואנטי-אייג'ינג (Radio Frequency).">
+          <div class="service-top">
+            <h3>Radio Frequency (RF)</h3>
+            <p class="tag">מיצוק & אנטי-אייג'ינג</p>
+          </div>
+          <p>חימום שכבות העור לעידוד קולגן ואלסטין, למיצוק ושיפור קווי מתאר הפנים.</p>
+          <span class="service-cta">שאלי בוואטסאפ →</span>
+        </a>
+
+        <a href="#" class="service ask-wa"
+           data-msg="אשמח לקבל פרטים על Nanofractional RF לשיפור מרקם, נקבוביות וצלקות אקנה.">
+          <div class="service-top">
+            <h3>Nanofractional RF</h3>
+            <p class="tag">מרקם & צלקות</p>
+          </div>
+          <p>שיפור מרקם, נקבוביות וצלקות אקנה, לקידום חידוש העור באופן מבוקר.</p>
+          <span class="service-cta">שאלי בוואטסאפ →</span>
+        </a>
+
+        <a href="#" class="service ask-wa"
+           data-msg="אשמח לקבל פרטים על טיפולי אקנה משולבים (ניקוי עמוק + מכשור + פרוטוקול ביתי).">
+          <div class="service-top">
+            <h3>טיפולי אקנה משולבים</h3>
+            <p class="tag">סובב-אקנה</p>
+          </div>
+          <p>שילוב מכשור, ניקוי עמוק ופרוטוקול ביתי מותאם להפחתת התפרצויות ושיקום העור.</p>
+          <span class="service-cta">שאלי בוואטסאפ →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Library (Instagram) -->
+  <section id="videos" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>ספריית וידאו – תוצאות מהאינסטגרם</h2>
+        <p>צפו בסרטונים קצרים שמציגים תהליכים ותוצאות בקליניקה.</p>
+      </div>
+
+      <!-- הגריד הידני שלך (נשאר) -->
+      <div class="video-grid">
+        <a class="video-card" href="https://www.instagram.com/inbal_korene/reels/" target="_blank" rel="noopener">
+          <div class="video-thumb" aria-hidden="true"></div>
+          <div class="video-title">Reels – תוצאות ועדכונים</div>
+        </a>
+        <a class="video-card" href="https://www.instagram.com/inbal_korene/" target="_blank" rel="noopener">
+          <div class="video-thumb" aria-hidden="true"></div>
+          <div class="video-title">עמוד אינסטגרם</div>
+        </a>
+        <a class="video-card" href="https://www.instagram.com/inbal_korene/tagged/" target="_blank" rel="noopener">
+          <div class="video-thumb" aria-hidden="true"></div>
+          <div class="video-title">לקוחות שתויגו</div>
+        </a>
+      </div>
+
+      <!-- ספריית וידאו מוטמעת לפי שלושת הקישורים שסיפקת -->
+      <div class="il-insta-mount"
+           data-insta-title="ספריית וידאו"
+           data-insta-subtitle="היילייטים מהקליניקה – לחצו לפתיחה באינסטגרם"
+           data-urls="https://www.instagram.com/reel/DIhFb_LIWDs/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==, https://www.instagram.com/reel/DCYusxIAgGW/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==, https://www.instagram.com/reel/C3LU7qKoLXI/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>חוות דעת</h2>
+        <p>מילים חמות מלקוחות מרוצות.</p>
+      </div>
+      <div class="testimonial-wrap">
+        <button class="t-btn prev" aria-label="הקודם">‹</button>
+        <div class="testimonial">
+          <p id="tText"></p>
+          <div class="t-meta">
+            <span id="tName" class="t-name"></span>
+            <span id="tStars" class="t-stars" aria-hidden="true"></span>
+          </div>
+        </div>
+        <button class="t-btn next" aria-label="הבא">›</button>
+      </div>
+      <div class="t-dots" id="tDots" aria-label="ניווט חוות דעת"></div>
+    </div>
+  </section>
+
+  <!-- Map & Contact -->
+  <section id="contact" class="section alt">
+    <div class="container">
+      <div class="section-head">
+        <h2>מיקום ופרטים</h2>
+        <p>נווה זיו, דרך הפארק 13</p>
+      </div>
+      <div class="contact-grid">
+        <div class="map-embed">
+          <iframe
+            title="מפת הקליניקה"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=%D7%A0%D7%95%D7%95%D7%94%20%D7%96%D7%99%D7%95%2C%20%D7%93%D7%A8%D7%9A%20%D7%94%D7%A4%D7%90%D7%A8%D7%A7%2013&output=embed">
+          </iframe>
+        </div>
+        <div class="contact-card">
+          <h3>יצירת קשר</h3>
+          <ul class="contact-list">
+            <li><strong>כתובת:</strong> נווה זיו, דרך הפארק 13</li>
+            <li><strong>וואטסאפ:</strong> <a class="wa-link" href="https://wa.me/972545576117?text=%D7%A9%D7%9C%D7%95%D7%9D%20%D7%A2%D7%99%D7%A0%D7%91%D7%9C%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%AA%D7%90%D7%9D%20%D7%98%D7%95%D7%A8" target="_blank" rel="noopener">הודעה מיידית</a></li>
+            <li><strong>אינסטגרם:</strong> <a href="https://www.instagram.com/inbal_korene/" target="_blank" rel="noopener">@inbal_korene</a></li>
+          </ul>
+
+          <div class="contact-actions">
+            <a class="btn primary full" href="https://wa.me/972545576117?text=%D7%A9%D7%9C%D7%95%D7%9D%20%D7%A2%D7%99%D7%A0%D7%91%D7%9C%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%AA%D7%90%D7%9D%20%D7%98%D7%95%D7%A8" target="_blank" rel="noopener">לתיאום טיפול</a>
+
+            <!-- Waze deep link -->
+            <a class="btn waze full" href="https://waze.com/ul?q=%D7%A0%D7%95%D7%95%D7%94%20%D7%96%D7%99%D7%95%2C%20%D7%93%D7%A8%D7%9A%20%D7%94%D7%A4%D7%90%D7%A8%D7%A7%2013&navigate=yes" target="_blank" rel="noopener" aria-label="ניווט ב-Waze">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 3a7.5 7.5 0 0 1 7.46 8.46c.85.45 1.54 1.15 1.92 2.02.56 1.26.6 2.76.12 4.27-.08.25-.31.41-.57.41h-1.14a2 2 0 0 1-1.9-1.37l-.2-.6-.5 1.07A2 2 0 0 1 12 19h-.87l-.37-1.11-.9 1.02A2 2 0 0 1 7.5 20H6.4c-.41 0-.74-.33-.74-.74 0-1.22.22-2.3.66-3.21-2.26-1.24-3.82-3.64-3.82-6.45A7.5 7.5 0 0 1 9.5 3Z"/></svg>
+              ניווט ב-Waze
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Inbal Korene – כל הזכויות שמורות</p>
+      <a class="ig" href="https://www.instagram.com/inbal_korene/" target="_blank" rel="noopener" aria-label="Instagram">
+        <!-- SVG אינסטגרם – גדול וברור -->
+        <svg class="icon ig-icon" viewBox="0 0 24 24" aria-hidden="true" width="32" height="32">
+          <path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Zm5 4a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm6-1.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm-6 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6Z"/>
+        </svg>
+        <span class="sr-only">Instagram</span>
+      </a>
+    </div>
+    <!-- עוגן אופציונלי אם בעתיד תרצי למקם ספריית אינסטגרם אוטומטית לפני הפוטר -->
+    <div id="instagram-library-anchor"></div>
+  </footer>
+
+  <!-- Floating WhatsApp button -->
+  <a class="floating-wa" href="https://wa.me/972545576117?text=%D7%A9%D7%9C%D7%95%D7%9D%20%D7%A2%D7%99%D7%A0%D7%91%D7%9C%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%AA%D7%90%D7%9D%20%D7%98%D7%95%D7%A8" target="_blank" rel="noopener" aria-label="שליחת הודעת וואטסאפ">
+    🟢
+  </a>
+
+  <!-- קבצי הסגנון/התנהגות החיצוניים שלך -->
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
